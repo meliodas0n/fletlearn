@@ -1,15 +1,34 @@
-## The amazing todo + tracking app that is going to surpass Jira in few throusand years
+# Chrono
 
-#
+Chrono is an amazing todo + tracking app that is going to surpass Jira in a few thousand years.
 
-### How to install ?
-#### 1. create a virtual environment
-####    `python3 -m venv .venv`
-#### 2. Activate the newly create environemnt
-####    `source ./venv/bin/activate`
-#### 3. Install poetry
-#### `pip3 install poetry`
-#### 4. Install required dependcies using poetry
-#### `poetry install`
-#### 5. Run the app
-#### `python3 chrono`
+## How to Install
+1. Install python3.11 and venv 
+    ```shell
+    sudo apt install python3.11; sudo apt install python3.11-venv
+    ```
+
+2. Create a virtual environment:
+    ```shell
+    python3.11 -m venv .venv
+    ```
+
+3. Activate the newly created environment:
+    ```shell
+    source ./.venv/bin/activate
+    ```
+
+4. Install poetry:
+    ```shell
+    pip3 install poetry
+    ```
+
+5. Install required dependencies using poetry:
+    ```shell
+    poetry install
+    ```
+
+6. Run the app:
+    ```shell
+    python3.11 chrono
+    ```
