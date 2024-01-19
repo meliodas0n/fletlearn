@@ -5,7 +5,7 @@ Chrono is an amazing todo + tracking app that is going to surpass Jira in a few 
 ## How to Install
 1. Install python3.11 and venv 
     ```shell
-    sudo apt install python3.11; sudo apt install python3.11-venv
+    sudo apt install python3.11 python3.11-venv
     ```
 
 2. Create a virtual environment:
@@ -28,7 +28,12 @@ Chrono is an amazing todo + tracking app that is going to surpass Jira in a few 
     poetry install
     ```
 
-6. Run the app:
+6. To run tests:
+    ```shell
+    cd chrono; python3.11 -m unittest test_app.py
+    ```
+
+7. Run the app:
     ```shell
     python3.11 chrono
     ```
