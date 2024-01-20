@@ -1,9 +1,8 @@
 [tool.poetry]
-name = "fletlearn"
+name = "learn"
 version = "0.1.0"
-description = "Chrono is an amazing todo + tracking app that is going to surpass Jira in a few thousand years."
+description = ""
 authors = ["meliodas0n <mrunalnarayana@gmail.com>"]
-license = "MIT"
 readme = "README.md"
 
 [tool.poetry.dependencies]
